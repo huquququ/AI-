@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #e6b4bd;
+  --primary-hover: #dda6b0;
+  --secondary-color: #bfd8cc;
+  --secondary-hover: #aecbbc;
+  --accent-color: #f1d8a8;
+  --accent-lavender: #dcd3f0;
+  --accent-pearl: #fff9f5;
+
+  --bg-primary: rgba(255, 252, 249, 0.78);
+  --bg-secondary: #f8f2ed;
+  --bg-tertiary: rgba(255, 247, 241, 0.92);
+  --bg-soft: rgba(255, 255, 255, 0.56);
+  --bg-elevated: rgba(255, 255, 255, 0.88);
+
+  --text-primary: #5c5567;
+  --text-secondary: #7b7486;
+  --text-tertiary: #aba3b5;
+  --text-soft: #938b9c;
+
+  --border-color: rgba(226, 213, 209, 0.72);
+  --border-strong: rgba(214, 192, 201, 0.88);
+  --glass-border: rgba(255, 255, 255, 0.7);
+
+  --radius-xs: 14px;
+  --radius-sm: 18px;
+  --radius-md: 24px;
+  --radius-lg: 32px;
+  --radius-xl: 40px;
+  --radius-pill: 999px;
+  --border-radius: var(--radius-md);
+
+  --shadow-xs: 0 8px 20px rgba(207, 187, 191, 0.12);
+  --shadow-sm: 0 16px 36px rgba(210, 191, 197, 0.16);
+  --shadow-md: 0 24px 60px rgba(205, 188, 197, 0.2);
+  --shadow-lg: 0 34px 90px rgba(199, 181, 191, 0.24);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.74);
+
+  --spacing-2xs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 18px;
+  --spacing-lg: 28px;
+  --spacing-xl: 40px;
+  --spacing-2xl: 64px;
+  --spacing-3xl: 96px;
+
+  --font-family:
+    "Segoe UI Variable Display",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei UI",
+    sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 30px;
+  --font-size-3xl: clamp(2.6rem, 5vw, 4.5rem);
+
+  --transition-fast: 180ms ease;
+  --transition-normal: 280ms ease;
+  --transition-slow: 420ms ease;
+
+  --page-gradient:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.82), transparent 36%),
+    radial-gradient(circle at top right, rgba(220, 211, 240, 0.68), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(191, 216, 204, 0.58), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(241, 216, 168, 0.5), transparent 26%),
+    linear-gradient(160deg, #fbf6f0 0%, #f5efea 42%, #f8f2f6 100%);
+}
